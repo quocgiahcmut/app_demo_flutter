@@ -9,7 +9,7 @@ class AppRoutes {
   static final GoRouter router = GoRouter(
     initialLocation: homeRoute,
     routes: [
-      GoRoute(path: loginRoute, builder: (context, state) => const LoginScreen()),
+      GoRoute(path: loginRoute, builder: (context, state) => LoginScreen()),
       GoRoute(path: homeRoute, builder: (context, state) => const HomeScreen())
     ]
   );
